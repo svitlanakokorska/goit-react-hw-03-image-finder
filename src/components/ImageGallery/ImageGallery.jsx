@@ -1,7 +1,6 @@
-import { ImageGalleryItem } from 'components/ImageGalleryItem/ImageGalleryItem'; 
-import PropTypes from 'prop-types'; 
-import css from './ImageGallery.module.css'; 
-
+import { ImageGalleryItem } from 'components/ImageGalleryItem/ImageGalleryItem';
+import PropTypes from 'prop-types';
+import css from './ImageGallery.module.css';
 
 export const ImageGallery = ({ images, togleModal }) => {
   return (
@@ -14,6 +13,6 @@ export const ImageGallery = ({ images, togleModal }) => {
 };
 
 ImageGallery.propTypes = {
-  images: PropTypes.arrayOf(PropTypes.object).isRequired, 
-  togleModal: PropTypes.func.isRequired 
+  images: PropTypes.arrayOf(PropTypes.object).isRequired,
+  togleModal: PropTypes.func.isRequired,
 };
